@@ -1,3 +1,45 @@
+
+/* Inter - Regular */
+@font-face {
+    font-family: 'Inter';
+    src: url('./fonts/Inter_18pt-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Inter - Bold */
+@font-face {
+    font-family: 'Inter';
+    src: url('./fonts/Inter-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* Inter - Italic */
+@font-face {
+    font-family: 'Inter';
+    src: url('./fonts/Inter-Italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+/* Spectral - Regular */
+@font-face {
+    font-family: 'Spectral';
+    src: url('./fonts/Spectral-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Spectral - Bold Italic */
+@font-face {
+    font-family: 'Spectral';
+    src: url('./fonts/Spectral-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+
 body {
 	max-width: 1920px;
 	margin: auto;
@@ -6,6 +48,11 @@ body {
 	font-family: 'Inter';
 	font-style: normal;
 }
+
+.banniere{
+	background-color: #000;
+}
+
 .top-header {
 	background-color: white;
 	position: sticky;
@@ -16,6 +63,11 @@ body {
 	padding-inline: 100px;
 	padding-block: 30px;
 	align-items: center;
+}
+img.d-block.w-100 {
+    width: 1440px;
+    height: 666px;
+    object-fit: cover;
 }
 
 .top-header .name {
@@ -69,6 +121,7 @@ body {
 
 .picture img {
 	width: 100%;
+	height: auto;
 
 }
 #about-me {
@@ -101,12 +154,13 @@ body {
 	justify-content: center;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff;
+	color: #000;
 	background-color: #BEB45A;
 	border-radius:0 ;
 }
 .nav-link.active-tag {
     background-color: #BEB45A;
+	color: #000;
 }
 .nav-pills .nav-link {
 	color: #000
