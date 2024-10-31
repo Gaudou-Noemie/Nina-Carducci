@@ -165,6 +165,38 @@
 			<img loading="lazy" src="./assets/images/camera.webp" alt="Gros plan sur un appareil photo.">
 		</div>
 	</div>
+
+	
+		<!-- Informations de contact avec balisage Schema.org -->
+		<div itemscope itemtype="http://schema.org/Photographer">
+			<!-- Nom du photographe -->
+			<span itemprop="name">Nina Carducci</span><br>
+
+			<!-- Adresse -->
+			<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+				<span itemprop="streetAddress">68 avenue Alsace-Lorraine</span>,
+				<span itemprop="addressLocality">Bordeaux</span>,
+				<span itemprop="addressRegion">Nouvelle-Aquitaine</span>,
+				<span itemprop="postalCode">33200</span>,
+				<span itemprop="addressCountry">France</span>
+			</div>
+
+			<!-- Numéro de téléphone -->
+			<span itemprop="telephone">05 56 67 78 89</span><br>
+
+			<!-- Heures d'ouverture lisibles par l'utilisateur et les moteurs de recherche -->
+			<p>Horaires d'ouverture : <span itemprop="openingHoursSpecification" itemscope itemtype="http://schema.org/OpeningHoursSpecification">
+				<meta itemprop="dayOfWeek" content="Monday" />
+				<meta itemprop="dayOfWeek" content="Tuesday" />
+				<meta itemprop="dayOfWeek" content="Wednesday" />
+				<meta itemprop="dayOfWeek" content="Thursday" />
+				<meta itemprop="dayOfWeek" content="Friday" />
+				<meta itemprop="opens" content="10:00" />
+				<meta itemprop="closes" content="19:00" />
+				Lundi au vendredi de <span>10 h à 19 h</span>
+			</span></p>
+		</div>
+	
 </footer>
 
 
