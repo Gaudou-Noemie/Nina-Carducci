@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Nina Carducci – Photographe à Bordeaux | Portraits, Mariages, Entreprises</title>
 	<meta name="description" content="Nina Carducci, photographe à Bordeaux 33200, capture vos moments précieux. Spécialisée en portraits, mariages et photos d'entreprise, elle apporte un regard artistique unique à chaque séance photo.">
-	<meta name="keywords" content="photographe Bordeaux, photographie professionnelle, portraits Bordeaux, mariages Bordeaux, séances photo entreprise, Nina Carducci, photographe 33200, album photo personnalisé, retouches photo professionnelles">
+	<!-- <meta name="keywords" content="photographe Bordeaux, photographie professionnelle, portraits Bordeaux, mariages Bordeaux, séances photo entreprise, Nina Carducci, photographe 33200, album photo personnalisé, retouches photo professionnelles"> -->
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
 	<link rel="stylesheet" href="./assets/style.css">
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" defer></script>
@@ -167,36 +167,17 @@
 	</div>
 
 	
-		<!-- Informations de contact avec balisage Schema.org -->
-		<div itemscope itemtype="http://schema.org/Photographer">
-			<!-- Nom du photographe -->
-			<span itemprop="name">Nina Carducci</span><br>
-
-			<!-- Adresse -->
-			<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-				<span itemprop="streetAddress">68 avenue Alsace-Lorraine</span>,
-				<span itemprop="addressLocality">Bordeaux</span>,
-				<span itemprop="addressRegion">Nouvelle-Aquitaine</span>,
-				<span itemprop="postalCode">33200</span>,
-				<span itemprop="addressCountry">France</span>
-			</div>
-
-			<!-- Numéro de téléphone -->
-			<span itemprop="telephone">05 56 67 78 89</span><br>
-
-			<!-- Heures d'ouverture lisibles par l'utilisateur et les moteurs de recherche -->
-			<p>Horaires d'ouverture : <span itemprop="openingHoursSpecification" itemscope itemtype="http://schema.org/OpeningHoursSpecification">
-				<meta itemprop="dayOfWeek" content="Monday" />
-				<meta itemprop="dayOfWeek" content="Tuesday" />
-				<meta itemprop="dayOfWeek" content="Wednesday" />
-				<meta itemprop="dayOfWeek" content="Thursday" />
-				<meta itemprop="dayOfWeek" content="Friday" />
-				<meta itemprop="opens" content="10:00" />
-				<meta itemprop="closes" content="19:00" />
-				Lundi au vendredi de <span>10 h à 19 h</span>
-			</span></p>
+	<div itemscope itemtype="http://schema.org/Photograph">
+		<span itemprop="name">Nina Carducci – Photographe à Bordeaux</span>
+		<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+			<span itemprop="streetAddress">68 avenue Alsace-Lorraine</span>,
+			<span itemprop="addressLocality">Bordeaux</span>,
+			<span itemprop="addressRegion">Nouvelle-Aquitaine</span>,
+			<span itemprop="postalCode">33200</span>
 		</div>
-	
+		<span itemprop="telephone">05 56 67 78 89</span>
+		<div>Heures d'ouverture : <time itemprop="openingHours" datetime="Mo-Fr 10:00-19:00">Lun-Ven 10h-19h</time></div>
+	</div>
 </footer>
 
 
