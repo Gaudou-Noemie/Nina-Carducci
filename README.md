@@ -1,4 +1,4 @@
-# 🏗️ Projet N°4 : Nina Carducci – OpenClassrooms
+# Projet N°4 : Nina Carducci – OpenClassrooms
 
 ## Description du Projet
 Ce projet vise à améliorer les performances, l'accessibilité et le référencement naturel (SEO) du site de **Nina Carducci**, une photographe professionnelle. L'objectif est de rendre le site plus rapide, plus accessible et mieux référencé sur les moteurs de recherche afin d'augmenter sa visibilité et d'attirer davantage de clients.
