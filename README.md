@@ -10,9 +10,9 @@ Ce projet vise à améliorer les performances, l'accessibilité et le référenc
 - **Wave** : Outil pour analyser et améliorer l'accessibilité du site.
 - **schema.org** : Implémentation des données structurées pour améliorer le référencement et la visibilité du site dans les moteurs de recherche.
 
-## Objectif Pédagogique
-1. **Maîtriser les outils d'analyse SEO** : Apprendre à utiliser des outils comme Lighthouse et Wave pour évaluer et améliorer les performances, l'accessibilité et le référencement d'un site.
-2. **Améliorer l'expérience utilisateur** : Optimiser le temps de chargement du site et rendre l'expérience utilisateur plus fluide et agréable.
-3. **Optimiser le référencement naturel** : Apprendre les bonnes pratiques de SEO, comme l'utilisation de balises meta, de données structurées et d'une structure HTML sémantique.
-4. **Répondre aux exigences d'accessibilité** : S'assurer que le site est accessible aux utilisateurs handicapés en suivant les normes WCAG et en utilisant des outils comme Wave.
-5. **Gérer un projet d'optimisation en continu** : Acquérir de l'expérience dans la gestion de l'optimisation continue d'un site web tout en s'assurant de respecter les critères techniques de performance et d'accessibilité.
+## Objectifs pédagogiques
+- **Utiliser les outils d'analyse SEO** (Lighthouse, Wave) pour évaluer les performances et l'accessibilité.
+- **Optimiser l'expérience utilisateur** en réduisant le temps de chargement.
+- **Améliorer le SEO** avec des balises meta, des données structurées et une structure HTML claire.
+- **Assurer l'accessibilité** en suivant les normes WCAG.
+- **Gérer l'optimisation continue** du site en respectant les critères de performance et d'accessibilité.
